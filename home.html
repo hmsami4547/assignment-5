@@ -16,16 +16,16 @@
 </head>
 <body>
 <header>
-<div class="flex w-full max-h-[10vh] justify-between pl-[4rem] pr-[4rem] 
+<div class="flex w-full max-h-[10vh] justify-between lg:pl-[4rem] lg:pr-[4rem] 
 ">
     <div class="flex items-center">
 <img src="B12-A5-Emergency-Hotline/assets/logo-dark.png" alt="" class="max-w-[50px] max-h-[50px]">
 <h1 class="text-[#006747] font-bold">Emergency <br> Service</h1>
     </div>
-    <div class="flex gap-10 items-center">
+    <div class="flex lg:gap-10 items-center">
 <div class="flex items-center gap-2 mt-[1.1rem] mb-[1.1rem]  pl-[0.8rem] pr-[0.8rem]   bg-[#41ff6b1a] rounded-full"><span class="font-bold" id="red-heart">0</span>
 <img src="B12-A5-Emergency-Hotline/assets/heart.png" alt="" class="max-w-[40px] max-h-[40px]"></div>
-<div class="flex items-center gap-2 mt-[1.1rem] mb-[1.1rem]  pl-[0.8rem] pr-[0.8rem]   bg-[#41ff6b1a] rounded-full"><span class="font-bold" >100</span>
+<div class="flex items-center gap-2 mt-[1.1rem] mb-[1.1rem]  pl-[0.8rem] pr-[0.8rem]   bg-[#41ff6b1a] rounded-full"><span class="font-bold" id="coin" >100</span>
 <img src="B12-A5-Emergency-Hotline/assets/coin.png" alt="" class="max-w-[40px] max-h-[40px]"></div>
 <div class="mt-[1.1rem] mb-[1.1rem] pt-[0.5rem] pb-[0.5rem] pl-[1.2rem] pr-[1.2rem]  rounded-full bg-[#00A63E] text-white"><span> 2 copy</span></div>
     </div>
@@ -35,7 +35,7 @@
 </header>
 
     <main>
-<div class="hind-madurai-bold w-full  max-h-[24vh] text-center gradient-color">
+<div class="hind-madurai-bold w-full  lg:max-h-[24vh] text-center gradient-color">
 <div class="flex justify-center "><img src="B12-A5-Emergency-Hotline/assets/logo.png" alt="" class="max-w-[60px] max-h-[60px]"></div>
 <h3 class="font-bold text-[2.5rem] text-white">Emergency Service Directory</h3>
 <p class="font-semibold text-[1.2rem] text-white">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
@@ -44,7 +44,7 @@
 
 
 
-<div class="bg-[#41ff6b1a] w-full flex sm:flex-col lg:flex-row ">
+<div class="bg-[#41ff6b1a] w-full flex sm:flex-col lg:flex-row flex-col">
 
     <div class="  lg:min-w-[80vw] sm:min-w-full p-[2rem] grid lg:grid-cols-3 lg:grid-rows-3 gap-x-5 gap-y-10 sm:grid-cols-2 sm:grid-rows-5">
 
@@ -57,11 +57,11 @@
 <h5 class="hind-madurai-bold">National Emergency Number</h5>
 <p>National Emergency</p>
 
-<h2 class="mt-2 font-bold text-3xl">999</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num1" >999</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">All</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2 " id="copy1"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call1"><i class="fa-solid fa-phone"></i><span >Call</span></button>
 </div>
 </div>
 
@@ -73,11 +73,11 @@
 <h5 class="hind-madurai-bold">Police Helpline Number</h5>
 <p>Police</p>
 
-<h2 class="mt-2 font-bold text-3xl">999</h2>
+<h2 class="mt-2 font-bold text-3xl " id="num2">999</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">Police</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call2" ><i class="fa-solid fa-phone"></i><span >Call</span></button>
 </div>
 </div>
 
@@ -89,11 +89,11 @@
 <h5 class="hind-madurai-bold">Fire Service Number</h5>
 <p>Fire Service</p>
 
-<h2 class="mt-2 font-bold text-3xl">999</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num3">999</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">Fire</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy3"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call3"><i class="fa-solid fa-phone"></i><span  >Call</span></button>
 </div>
 </div>
 
@@ -105,11 +105,11 @@
 <h5 class="hind-madurai-bold">Ambulance Service</h5>
 <p>Ambulance</p>
 
-<h2 class="mt-2 font-bold text-3xl">1994-999999</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num4">1994-999999</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">Health</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy4"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call4"><i class="fa-solid fa-phone"></i><span  >Call</span></button>
 </div>
 </div>
 
@@ -121,11 +121,11 @@
 <h5 class="hind-madurai-bold">Women & Child Helpline</h5>
 <p>Women & Child Helpline</p>
 
-<h2 class="mt-2 font-bold text-3xl">109</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num5">109</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">Help</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy5"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call5"><i class="fa-solid fa-phone"></i><span  >Call</span></button>
 </div>
 </div>
 
@@ -137,11 +137,11 @@
 <h5 class="hind-madurai-bold">Anti-Corruption Helpline</h5>
 <p>Anti-Corruption</p>
 
-<h2 class="mt-2 font-bold text-3xl">106</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num6">106</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">Govt.</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy6"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call6"><i class="fa-solid fa-phone"></i><span  >Call</span></button>
 </div>
 </div>
 
@@ -153,11 +153,11 @@
 <h5 class="hind-madurai-bold">Electricity Helpline</h5>
 <p>Electricity Outrage</p>
 
-<h2 class="mt-2 font-bold text-3xl">16216</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num7">16216</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">Electricity</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy7"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call7"><i class="fa-solid fa-phone"></i><span  >Call</span></button>
 </div>
 </div>
 
@@ -169,11 +169,11 @@
 <h5 class="hind-madurai-bold">Brac Helpline</h5>
 <p>Brac</p>
 
-<h2 class="mt-2 font-bold text-3xl">16445</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num8">16445</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content]  text-center">NGO</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2"><i class="fa-solid fa-phone"></i><span>Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy8"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn text-white rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2" id="call8"><i class="fa-solid fa-phone"></i><span  >Call</span></button>
 </div>
 </div>
 
@@ -185,11 +185,11 @@
 <h5 class="hind-madurai-bold">Bangladesh Railway Helpline</h5>
 <p>Bangladesh Railway</p>
 
-<h2 class="mt-2 font-bold text-3xl">163</h2>
+<h2 class="mt-2 font-bold text-3xl" id="num9">163</h2>
 <div class="bg-[#f2f2f2] rounded-full p-2 w-[fit-content] text-center">Travel</div>
 <div class="flex gap-5 mt-[0.5rem]">
-   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
-    <button class="btn rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2 text-white"><i class="fa-solid fa-phone"></i><span >Call</span></button>
+   <button class="btn rounded-xl min-w-[10vw] flex justify-center gap-2" id="copy9"><i class="fa-regular fa-copy"></i><span>Copy</span></button>
+    <button class="btn rounded-xl min-w-[10vw] bg-[#00a63c] flex justify-center gap-2 text-white" id="call9"><i class="fa-solid fa-phone"></i><span  >Call</span></button>
 </div>
 </div>
 
@@ -202,17 +202,12 @@
     mt-[2rem] mb-[2rem] shadow-xl p-[1rem]">
 <div class="flex justify-between items-center">
     <div><i class="fa-solid fa-clock-rotate-left"></i>Call History</div>
-    <div>  <button class="btn rounded-xl min-w-[5vw] bg-[#00a63c] flex justify-center gap-1 text-white"><span >Clear</span></button></div>
-</div>
-<div class="bg-[#fafaf7] rounded-xl w-full flex justify-between items-center
-mt-[1rem]">
-<div><h1>Fire Service  Number</h1>
-<p>999</p></div>
-<div>11:36 AM</div>
-
-
+    <div>  <button class="btn rounded-xl min-w-[5vw] bg-[#00a63c] flex justify-center gap-1 text-white" id="clear">Clear</button></div>
 </div>
 
+<div id="call-history">
+
+</div>
 
 
 
