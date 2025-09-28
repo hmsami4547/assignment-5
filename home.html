@@ -16,15 +16,16 @@
 </head>
 <body>
 <header>
-<div class="flex w-full max-h-[10vh] justify-between pl-[4rem] pr-[4rem] ">
+<div class="flex w-full max-h-[10vh] justify-between pl-[4rem] pr-[4rem] 
+">
     <div class="flex items-center">
 <img src="B12-A5-Emergency-Hotline/assets/logo-dark.png" alt="" class="max-w-[50px] max-h-[50px]">
 <h1 class="text-[#006747] font-bold">Emergency <br> Service</h1>
     </div>
     <div class="flex gap-10 items-center">
-<div class="flex items-center gap-2 mt-[1.1rem] mb-[1.1rem]  pl-[0.8rem] pr-[0.8rem]   bg-[#41ff6b1a] rounded-full"><span class="font-bold">0</span>
+<div class="flex items-center gap-2 mt-[1.1rem] mb-[1.1rem]  pl-[0.8rem] pr-[0.8rem]   bg-[#41ff6b1a] rounded-full"><span class="font-bold" id="red-heart">0</span>
 <img src="B12-A5-Emergency-Hotline/assets/heart.png" alt="" class="max-w-[40px] max-h-[40px]"></div>
-<div class="flex items-center gap-2 mt-[1.1rem] mb-[1.1rem]  pl-[0.8rem] pr-[0.8rem]   bg-[#41ff6b1a] rounded-full"><span class="font-bold">100</span>
+<div class="flex items-center gap-2 mt-[1.1rem] mb-[1.1rem]  pl-[0.8rem] pr-[0.8rem]   bg-[#41ff6b1a] rounded-full"><span class="font-bold" >100</span>
 <img src="B12-A5-Emergency-Hotline/assets/coin.png" alt="" class="max-w-[40px] max-h-[40px]"></div>
 <div class="mt-[1.1rem] mb-[1.1rem] pt-[0.5rem] pb-[0.5rem] pl-[1.2rem] pr-[1.2rem]  rounded-full bg-[#00A63E] text-white"><span> 2 copy</span></div>
     </div>
@@ -35,7 +36,7 @@
 
     <main>
 <div class="hind-madurai-bold w-full  max-h-[24vh] text-center gradient-color">
-<div class="flex justify-center"><img src="B12-A5-Emergency-Hotline/assets/logo.png" alt="" class="max-w-[60px] max-h-[60px]"></div>
+<div class="flex justify-center "><img src="B12-A5-Emergency-Hotline/assets/logo.png" alt="" class="max-w-[60px] max-h-[60px]"></div>
 <h3 class="font-bold text-[2.5rem] text-white">Emergency Service Directory</h3>
 <p class="font-semibold text-[1.2rem] text-white">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
 
@@ -43,15 +44,15 @@
 
 
 
-<div class="bg-[#41ff6b1a] w-full flex ">
+<div class="bg-[#41ff6b1a] w-full flex sm:flex-col lg:flex-row ">
 
-    <div class="  min-w-[80vw] p-[2rem] grid grid-cols-3 grid-rows-3 gap-x-5 gap-y-10">
+    <div class="  lg:min-w-[80vw] sm:min-w-full p-[2rem] grid lg:grid-cols-3 lg:grid-rows-3 gap-x-5 gap-y-10 sm:grid-cols-2 sm:grid-rows-5">
 
 
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
 <div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<button id="heart1"><i class="fa-regular fa-heart"></i></button>
 </div>
 <h5 class="hind-madurai-bold">National Emergency Number</h5>
 <p>National Emergency</p>
@@ -67,7 +68,7 @@
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
 <div class="bg-[#DFEFFF] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/police.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<button  id="heart2"><i class="fa-regular fa-heart"></i></button>
 </div>
 <h5 class="hind-madurai-bold">Police Helpline Number</h5>
 <p>Police</p>
@@ -82,8 +83,8 @@
 
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
-<div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/fire-service.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
+<div id="heart3"><i class="fa-regular fa-heart"></i></div>
 </div>
 <h5 class="hind-madurai-bold">Fire Service Number</h5>
 <p>Fire Service</p>
@@ -98,8 +99,8 @@
 
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
-<div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/ambulance.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
+<div id="heart4"><i class="fa-regular fa-heart"></i></div>
 </div>
 <h5 class="hind-madurai-bold">Ambulance Service</h5>
 <p>Ambulance</p>
@@ -115,7 +116,7 @@
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
 <div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<div id="heart5"><i class="fa-regular fa-heart"></i></div>
 </div>
 <h5 class="hind-madurai-bold">Women & Child Helpline</h5>
 <p>Women & Child Helpline</p>
@@ -131,7 +132,7 @@
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
 <div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<div id="heart6"><i class="fa-regular fa-heart"></i></div>
 </div>
 <h5 class="hind-madurai-bold">Anti-Corruption Helpline</h5>
 <p>Anti-Corruption</p>
@@ -147,7 +148,7 @@
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
 <div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<div id="heart7"><i class="fa-regular fa-heart"></i></div>
 </div>
 <h5 class="hind-madurai-bold">Electricity Helpline</h5>
 <p>Electricity Outrage</p>
@@ -163,7 +164,7 @@
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
 <div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<div id="heart8"><i class="fa-regular fa-heart"></i></div>
 </div>
 <h5 class="hind-madurai-bold">Brac Helpline</h5>
 <p>Brac</p>
@@ -179,7 +180,7 @@
 <div class="bg-white min-w-[23vw] max-h-[36vh] p-[2rem] rounded-xl shadow-xl">
 <div class="flex justify-between p-[2px] items-center">
 <div class="bg-[#ffe3e2] p-1 rounded-xl"><img src="B12-A5-Emergency-Hotline/assets/emergency.png" alt="" class="max-w-[30px] max-h-[30px]"></div>
-<div><i class="fa-regular fa-heart"></i></div>
+<div id="heart9"><i class="fa-regular fa-heart"></i></div>
 </div>
 <h5 class="hind-madurai-bold">Bangladesh Railway Helpline</h5>
 <p>Bangladesh Railway</p>
